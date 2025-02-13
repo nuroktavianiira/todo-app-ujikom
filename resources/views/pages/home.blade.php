@@ -5,7 +5,7 @@
         #content {
             background: url('{{ asset('images/download.jpg') }}') center/cover fixed no-repeat;
             /* Menetapkan gambar latar belakang dengan posisi di tengah (center), ukuran yang menyesuaikan (cover), efek paralaks (fixed agar latar belakang tidak bergerak saat menggulir), dan tidak berulang (no-repeat).*/
-            color: white;
+            color: black;
             /*  Mengatur teks tombol menjadi warna putih agar kontras dengan latar belakang gradient.*/
             min-height: 100vh;
         }
@@ -27,9 +27,7 @@
 
         /* ====== Tombol dengan Bootstrap Gradient & Hover ====== */
         .btn-gradient {
-            background: linear-gradient(135deg, #ff7eb3, #ff758c);
-            /* Membuat warna latar belakang tombol berupa gradasi dari warna pink cerah (#ff7eb3) ke pink gelap (#ff758c) dengan sudut 135 derajat.*/
-            color: white;
+            color: black;
             /*  Mengatur teks tombol menjadi warna putih agar kontras dengan latar belakang gradient.*/
             font-weight: bold;
             font-weight: bold;
@@ -55,41 +53,6 @@
 
             to {
                 transform: translateY(-3px);
-            }
-        }
-
-        /* ====== Tombol Tambah dengan Efek Pulse ====== */
-        .btn-add {
-            background: linear-gradient(135deg, #42e695, #3bb2b8);
-            color: white;
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5em;
-            transition: all 0.3s ease-in-out;
-            animation: pulse 1.5s infinite;
-            border: none;
-        }
-
-        .btn-add:hover {
-            transform: scale(1.15);
-            box-shadow: 0 0 15px rgba(66, 230, 149, 0.5);
-        }
-
-        @keyframes pulse {
-            0% {
-                box-shadow: 0 0 10px rgba(66, 230, 149, 0.3);
-            }
-
-            50% {
-                box-shadow: 0 0 20px rgba(66, 230, 149, 0.6);
-            }
-
-            100% {
-                box-shadow: 0 0 10px rgba(66, 230, 149, 0.3);
             }
         }
     </style>

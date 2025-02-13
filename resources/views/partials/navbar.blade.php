@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-primary navbar-dark fixed-top">
+<nav class="navbar navbar-expand-lg bg-primary navbar-dark">
     {{-- nav class di gunakan untuk membungkus tampilan navbar --}}
     {{-- navbar-expand-ig di gunakan untuk membuat tampilan navbar menjadi responsip--}}
     {{-- bg-primary di gunakan untuk mewarnai beground navbar menjadi berwarna biru --}}

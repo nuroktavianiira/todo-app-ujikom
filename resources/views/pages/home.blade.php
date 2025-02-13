@@ -1,5 +1,7 @@
 @extends('layouts.app')
+{{-- Kode ini menunjukkan bahwa halaman ini menggunakan template utama layouts.app. Dengan menggunakan @extends, halaman ini akan mewarisi struktur dari template utama. --}}
 @section('content')
+    {{-- Semua konten halaman ditulis di dalam @section('content'), yang berarti konten ini akan dimasukkan ke dalam bagian @yield('content') pada template layouts.app. --}}
     <style>
         /* Background Styling dengan Efek Paralaks*/
         #content {

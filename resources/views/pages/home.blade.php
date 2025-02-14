@@ -16,9 +16,6 @@
         .card {
             background: rgba(255, 255, 255, 0.15);
             /* Tingkatkan opasitas */
-            backdrop-filter: blur(10px);
-            /* Tambahkan blur untuk efek kaca */
-
             border-radius: 15px;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             /* transition: transform 0.3s ease-in-out; Menambahkan efek transisi halus saat tombol mengalami perubahan (misalnya saat di-hover)*/
@@ -36,8 +33,7 @@
             /*  Mengatur teks tombol menjadi warna putih agar kontras dengan latar belakang gradient.*/
             font-weight: bold;
             /* Membuat teks di dalam tombol menjadi lebih tebal.*/
-            transition: transform 0.3s ease-in-out;
-            /*Gradient: Warna tombol berubah menjadi gradasi.*/
+
         }
 
         .btn-gradient:hover {
@@ -45,7 +41,6 @@
             background: linear-gradient
                 /*Gradient: Warna tombol berubah menjadi gradasi.*/
                 (135deg, #ff758c, #ff7eb3);
-
         }
 
         /* ====== Badge Bootstrap dengan Animasi ====== */

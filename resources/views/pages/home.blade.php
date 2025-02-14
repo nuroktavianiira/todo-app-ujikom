@@ -37,16 +37,22 @@
             font-weight: bold;
             /* Membuat teks di dalam tombol menjadi lebih tebal.*/
             transition: transform 0.3s ease-in-out;
+            /*Gradient: Warna tombol berubah menjadi gradasi.*/
         }
 
         .btn-gradient:hover {
             transform: scale(1.1);
-            background: linear-gradient(135deg, #ff758c, #ff7eb3);
+            background: linear-gradient
+                /*Gradient: Warna tombol berubah menjadi gradasi.*/
+                (135deg, #ff758c, #ff7eb3);
 
         }
 
         /* ====== Badge Bootstrap dengan Animasi ====== */
-        .badge-animated {
+        .badge-animated
+
+        /*Efek bouncing: Badge akan bergerak naik-turun secara berulang.*/
+            {
             animation: bounce 1s infinite alternate;
         }
 

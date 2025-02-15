@@ -42,24 +42,6 @@
                 /*Gradient: Warna tombol berubah menjadi gradasi.*/
                 (135deg, #ff758c, #ff7eb3);
         }
-
-        /* ====== Badge Bootstrap dengan Animasi ====== */
-        .badge-animated
-
-        /*Efek bouncing: Badge akan bergerak naik-turun secara berulang.*/
-            {
-            animation: bounce 1s infinite alternate;
-        }
-
-        @keyframes bounce {
-            from {
-                transform: translateY(0);
-            }
-
-            to {
-                transform: translateY(-3px);
-            }
-        }
     </style>
 
     <div id="content" class=" min-vh-100 d-flex flex-column align-items-center py-4">

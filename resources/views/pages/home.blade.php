@@ -5,7 +5,7 @@
     <style>
         /* Background Styling dengan Efek Paralaks*/
         #content {
-            background: url('{{ asset('images/download.jpg') }}') center/cover fixed no-repeat;
+            background: url('{{ asset('assets/img/download.jpg') }}') center/cover fixed no-repeat;
             /* Menetapkan gambar latar belakang dengan posisi di tengah (center), ukuran yang menyesuaikan (cover), efek paralaks (fixed agar latar belakang tidak bergerak saat menggulir), dan tidak berulang (no-repeat).*/
             color: black;
             /*  Mengatur teks tombol menjadi warna putih agar kontras dengan latar belakang gradient.*/
@@ -41,6 +41,14 @@
             background: linear-gradient
                 /*Gradient: Warna tombol berubah menjadi gradasi.*/
                 (135deg, #ff758c, #ff7eb3);
+        }
+
+        /* ====== Badge Bootstrap dengan Animasi ====== */
+        .badge-animated
+
+        /*Efek bouncing: Badge akan bergerak naik-turun secara berulang.*/
+            {
+            animation: bounce 1s infinite alternate;
         }
     </style>
 

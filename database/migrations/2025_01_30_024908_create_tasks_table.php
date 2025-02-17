@@ -24,7 +24,7 @@ return new class extends Migration
             $table->string('name');
             //untuk mencegah duplikasi dengan menambahkan unique
             $table->string('description')->nullable();
-            // descrition di fgunakan untuk membuat deskripsi pada suatu task, pungsia untuk membuah task lebih sepesipik
+            // descrition di gunakan untuk membuat deskripsi pada suatu task, pungsinya untuk membuah task lebih sepesipik
             // nullable: opsional, membuat deskripsi lebih sepesipik   
             $table->boolean('is_completed')->default(false);
             //
